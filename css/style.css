@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1140px;
+	margin: auto;
+}
+.col-3{
+	width: 33.33%;
+	padding: 15px;
+}
+.col-4{
+	width: 25%;
+	padding: 15px;
+}
+.col-2{
+	width: 50%;
+	padding: 15px;
+}
+.divider{width: 3%;height: 2px;margin: auto;background: #FB2056;}
+h1{font-size: 50px;margin-top: 20px;margin-bottom: 25px;}
+p{text-align: center;}
+.btn{
+	padding: 10px 25px;
+	background: #FB2056;
+	border-radius: 30px;
+	color: #fff !important;
+	border: 2px solid #FB2056;
+	transition: .3s;
+	font-size: 13px;
+	letter-spacing: 2px;
+}
+.btn:hover{
+	background: transparent;
+	color: #FB2056 !important;
+}
+a:hover{
+	color: #FB2056 !important;
+	transition: .3s;
+}
+.icofont-long-arrow-right{margin-left: 10px;}
+
+/*****************global css ends*************/
+
+/*******************banner-section******************/
+.banner-section{
+	background: url(../images/banner1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header{padding: 20px 0px;}
+.logo{
+
+	width: 20%;
+	flex: 0 0 auto;
+}
+.logo img{
+
+}
+nav{width: 80%;flex: 0 0 auto;}
+nav ul{display: flex;justify-content: flex-end; flex-wrap:wrap; padding-top: 25px;}
+nav ul li{}
+nav ul li .btn{}
+nav ul li a{font-size: 16px;line-height: 1.1;margin-left: 20px;color: #fff;}
+.banner-contents{text-align: center;color: #fff;padding: 180px 0px 250px;}
+.banner-contents em{font-size: 22px;line-height: 32px;}
+.banner-contents a{color: #fff;background: #fb2056;padding: 12px 20px;border-radius: 30px;font-size: 12px;font-weight: 600;letter-spacing: 2px;}
+.bottom-banner{background: #F4F5F9;padding: 50px 0px;}
+.bottom-banner p{color: #DADBDC;}
+.bottom-banner h5{
+	color: #DADBDC;
+	margin-top: 30px;
+}
+.bottom-banner .container{justify-content: center;}
+.bottom-banner-contents{text-align: center;}
+/*******************event-section******************/
+.event-section{padding: 50px 0px;}
+.title{text-align: center;padding-bottom: 80px;}
+.title h2{margin-bottom: 15px;letter-spacing: 1px;}
+.event-section .col-2{width: 50%;padding: 45px;text-align: center;}
+.event-section img{width: 90%;box-shadow: 15px 15px 0px #a9a9a945;}
+.event-section h5{font-size: 17px;line-height: 27px;text-align: center;margin-top: 45px;}
+.event-section p{margin: 15px 0px;}
+.event-section a{color: #fb2056;font-size: 14px;padding: 10px 20px;letter-spacing: 2px;}
+
+/****************explore-section*****************/
+.explore-section{
+	background: url(../images/banner2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.explore-section .contents{color: #fff;padding: 180px 0px 250px;}
+.explore-section .contents h1{margin-bottom: 12px;}
+.explore-section .contents .divider{width: 15%;height: 2px;margin: 0;background: #FB2056;}
+.explore-section .contents p{text-align: left;margin-top: 10px;margin-bottom: 60px;}
+.explore-section .contents a{color: #fff;font-size: 14px;letter-spacing: 2px;}
+
+/****************upcoming-tour*****************/
+.upcoming-tour{padding: 50px 0px;}
+.upcoming-tour .title{padding: 0;text-align: left;}
+.upcoming-tour .col-2 {
+    width: 50%;
+    padding-top: 75px;
+}
+.upcoming-tour .divider{width: 20%;height: 2px;margin: 0;}
+.upcoming-tour .contents{width: 35%;padding: 77px;}
+.upcoming-tour .contents p{text-align: left;padding: 50px 0px;font-size: 14px;font-weight: 400;}
+.gallery-grid{display: grid;grid-gap: 10px 10px;grid-template-columns: auto auto;grid-template-rows: auto auto auto;}
+.gallery-grid .image1{}
+.gallery-grid .image2{grid-row: 2/14;}
+.gallery-grid .image3{grid-row: 1/13;}
+.gallery-grid .image4{}
+.gallery-grid img{width: 100%;height: 100%;border-radius: 10px;}
+/****************footer*****************/
+footer{background: #191919;padding: 50px 0px;color: #ccc;font-size: 15px;text-align: center;}
+.footer-inner{}
+.footer-inner p{margin-bottom: 30px;}
+.footer-inner span{}

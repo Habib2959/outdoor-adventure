@@ -1,0 +1,217 @@
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+	.container{
+		width: 992px;
+	}
+	.upcoming-tour .contents {
+	    width: 50%;
+	    padding: 77px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+	.container {
+	    width: 768px;
+	}
+	.banner-contents {
+	    padding: 100px 0px 120px;
+	}
+	.divider {
+	    width: 10%;
+	}
+	.explore-section .contents {
+	    padding: 100px 0px 120px;
+	}
+	.upcoming-tour .contents {
+	    width: 50%;
+	}
+	.upcoming-tour .col-2 {
+	    width: 50%;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+	.container {
+	    width: 600px;
+	}
+	.btn {
+	    padding: 10px 14px;
+	}
+	nav ul {
+	    display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    padding-top: 15px;
+	}
+	nav ul li a {
+	    font-size: 14px;
+	    line-height: 1.1;
+	    margin-left: 0;
+	    color: #fff;
+	}
+	h1 {
+	    font-size: 40px;
+	}
+	.banner-contents {
+	    padding: 50px 0px 70px;
+	}
+	.divider {
+	    width: 13%;
+	}
+	.title {
+	    padding-bottom: 0;
+	}
+	p {
+	    font-size: 14px;
+	}
+	.explore-section .contents {
+	    padding: 50px 0px;
+	}
+	.upcoming-tour .contents {
+	    width: 50%;
+	    padding: 79px;
+	}
+	.upcoming-tour .contents p {
+	    padding: 20px 0px 40px;
+	}
+	.upcoming-tour .col-2 {
+	    width: 50%;
+	}
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {.container {
+	    width: 320px;
+	}
+	.logo {
+	    width: 100%;
+	}
+	.logo img {
+	    padding-left: 50px;
+	}
+	nav {
+	    width: 100%;
+	}
+	nav ul {
+	    display: flex;
+	    justify-content: space-around;
+	    padding-top: 6px;
+	    flex-wrap: wrap;
+	}
+	nav ul li a {
+	    font-size: 12px;
+	    line-height: 1.1;
+	    margin-left: 4px;
+	    color: #fff;
+	}
+	nav ul li:last-child {
+	    margin-top: 20px;
+	}
+	.banner-contents {
+	    padding: 70px 0px;
+	}
+	.banner-contents em {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.divider {
+	    width: 20%;
+	}
+	h1 {
+	    font-size: 30px;
+	    margin-top: 16px;
+	    margin-bottom: 22px;
+	}
+	.banner-contents a {
+	    padding: 11px 22px;
+	    font-size: 10px;
+	}
+	.title {
+	    padding-bottom: 0;
+	}
+	.title h2 {
+	    margin-bottom: 7px;
+	    letter-spacing: 1px;
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.event-section .col-2 {
+	    width: 100%;
+	    padding: 30px;
+	    text-align: center;
+	}
+	.event-section h5 {
+	    font-size: 14px;
+	    line-height: 24px;
+	    text-align: center;
+	    margin-top: 26px;
+	}
+	.event-section p {
+	    margin: 10px 0px;
+	    font-size: 14px;
+	}
+	.event-section a {
+	    color: #fb2056;
+	    font-size: 13px;
+	    padding: 10px 20px;
+	    letter-spacing: 2px;
+	}
+	.col-2 {
+	    width: 100%;
+	    padding: 15px;
+	}
+	.explore-section .contents {
+	    color: #fff;
+	    padding: 50px 0px;
+	}
+	.explore-section .contents a {
+	    color: #fff;
+	    font-size: 13px;
+	    letter-spacing: 2px;
+	}
+	.explore-section .contents p {
+	    text-align: left;
+	    margin-top: 10px;
+	    margin-bottom: 40px;
+	    font-size: 14px;
+	}
+	.upcoming-tour .contents {
+	    width: 100%;
+	    padding: 77px;
+	}
+	.upcoming-tour .title {
+	    padding: 0;
+	    text-align: left;
+	}
+	.upcoming-tour .contents p {
+	    text-align: left;
+	    padding: 29px 0px;
+	    font-size: 14px;
+	    font-weight: 400;
+	}
+	.upcoming-tour .col-2 {
+	    width: 100%;
+	    padding-top: 0px;
+	}
+	.gallery-grid {
+	    display: block;
+	}
+	.gallery-grid img {
+	    border-radius: 14px;
+	    margin: 5px 0px;
+	}
+	footer {
+	    background: #191919;
+	    padding: 32px 0px;
+	    color: #ccc;
+	    font-size: 12px;
+	    text-align: center;
+	}}
+
+
+
+
+
+
